@@ -26,12 +26,6 @@
     object-fit: contain;
 }
 
-#listings .listing .missing-host {
-    width: 100%;
-    height: 300px;
-    object-fit: contain;
-}
-
 
 #listings .listing .avatar {
     position: absolute; 
@@ -46,4 +40,14 @@
 
 #listings .listing .listing-img {
     position: relative;
+}
+
+#listings .listing .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+#listings .listing .card-body .btn {
+    margin-top: auto;
+    align-self: flex-start;
 }
