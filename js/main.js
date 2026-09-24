@@ -11,6 +11,7 @@ function MainModule(listingsID = "#listings") {
       <img
         src="${listing.picture_url}"
         class="card-img-top"
+        loading="lazy"
         alt="${listing.property_type}"
         onerror="this.onerror=null; this.src='images/missing.jpg'; this.classList.add('missing-img');"
       />
@@ -28,7 +29,7 @@ function MainModule(listingsID = "#listings") {
       <p class="host">
         By ${listing.host_name}
       </p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="${listing.listing_url}" class="btn btn-danger" target="_blank" rel="noopener noreferrer">Help Pay ${listing.host_name}'s Mortgage</a>
     </div>
   </div>
   <!-- /card -->
