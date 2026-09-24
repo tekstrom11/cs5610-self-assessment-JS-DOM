@@ -1,5 +1,49 @@
-#lintings .listing img {
+#listings .listing .card-img-top {
     width: 100%;
-    height: 100%;
+    height: 300px;
     object-fit: cover;
+}
+
+#listings .listing .card-text {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+#listings .listing .card-title {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+#listings .listing .missing-img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+#listings .listing .missing-host {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+
+#listings .listing .avatar {
+    position: absolute; 
+    bottom: -10px; 
+    left: 28px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid lightblue;
+}
+
+#listings .listing .listing-img {
+    position: relative;
 }
