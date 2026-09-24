@@ -80,4 +80,4 @@ I used Anthropic's Claude (via Claude Code) throughout this assignment. Specific
 
 ## License
 
-ISC. Listing data is from [Inside Airbnb](http://insideairbnb.com/).
+[MIT](LICENSE). Listing data is from [Inside Airbnb](http://insideairbnb.com/).
